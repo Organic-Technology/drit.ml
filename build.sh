@@ -1,11 +1,11 @@
 #
 
 
-gzip -f --keep *.html
-gzip -f --keep *.css
-gzip -f --keep *.js
-gzip -f --keep *.svg
-gzip -f --keep *.png
+gzip -f -9 --keep *.html
+gzip -f -9 --keep *.css
+gzip -f -9 --keep *.js
+gzip -f -9 --keep *.svg
+gzip -f -9 --keep *.png
 
 rm sizes*.webp
 pngquant -f --quality 0-50 --speed 1 --strip --verbose sizes.png
