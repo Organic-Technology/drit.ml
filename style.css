@@ -9,6 +9,7 @@
 img { margin: auto; }
 
 body {
+ margin: 0; padding: 0;
  background-color: HSL(168,100%,36%);
  background-image: linear-gradient(to top right,
 rgba(0,220,140,0.98),
@@ -32,7 +33,6 @@ body:hover {
 
 body>div {
   /* font-size: 14px; */
-  max-width: 720px;
   min-height: 40vh;
   margin: auto;
   margin-top: 15vh;
@@ -45,6 +45,12 @@ body>div {
   /* h-offset v-offset blur spread color */
   box-shadow: 1.2rem 0 0 0 HSL(168,100%,36%); /* cyan glow */
   border-radius: 0.5rem;
+}
+@media (max-width: 600px) {
+  body>div { max-width: 100vw; }
+}
+@media (min-width: 720px) {
+  div { max-width: 720px; }
 }
 
 .shadow {
