@@ -6,6 +6,7 @@
  --di-secondary-color: HSL(168,100%,36%); /* #00b893 */
  --di-tertiary-color: rgb(245,130,131); /* hue=359 #f58283  */
 }
+img { margin: auto; }
 
 body {
  background-color: HSL(168,100%,36%);
