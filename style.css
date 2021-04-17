@@ -14,11 +14,11 @@ body {
 rgba(0,220,140,0.98),
 rgba(64,2,68,0.5),
 rgba(2,1,3,0.2)
-); 
+), URL(background.svg);
  background-position: top;
  background-repeat: no-repeat;
- background-size: auto 100%;
- background-size: 100% auto;
+ background-size: 100% 100%;
+ background-attachment: fixed;
  min-height: 100vh;
  /* transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay]; */
  transition: background-image 10s linear;
@@ -31,6 +31,7 @@ body:hover {
 .dbug { border: 3px dotted red; }
 
 body>div {
+  /* font-size: 14px; */
   max-width: 720px;
   min-height: 40vh;
   margin: auto;
