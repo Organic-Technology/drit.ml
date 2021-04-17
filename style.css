@@ -1,6 +1,15 @@
-/* this is a styling sheet */
+/* this is the minimal drIT's styling sheet */
+
+/* blue: 4285f4; */
+{
+ --di-primary-color: #400244; /* hue=296 rgb(64,2,68) */
+ --di-secondary-color: HSL(168,100%,36%); /* #00b893 */
+ --di-tertiary-color: rgb(245,130,131); /* hue=359 #f58283  */
+}
+
 body {
- background-image: url(bg-kidazuf.webp);
+ background-image: url();
+ background-color: #300133;
  background-size: auto 100%;
  min-height: 100vh;
 
@@ -17,6 +26,9 @@ body>div {
   background-color: white;
   opacity: 0.94;
   box-shadow: 5px 5px 15px 2px rgba(4,3,5,0.9);
+  box-shadow: 5px 5px 15px 2px rgba(245,130,131,0.9);/* pink glow */
+  /* h-offset v-offset blur spread color */
+  box-shadow: 1.2rem 0 0 0 HSL(168,100%,36%)/* cyan glow */
 }
 
 .shadow {
