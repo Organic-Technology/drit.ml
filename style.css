@@ -58,7 +58,7 @@ body:not(.nighttime) p.nighttime {
 }
 body>div:hover {
  	z-index:2;
-	-webkit-transform:scale(1.08);
+	-webkit-transform:scale(1.02);
   /*
   filter: invert(76%) hue-rotate(20deg);
   */

@@ -45,7 +45,7 @@ gzip -f -9 -n --keep *.css
 gzip -f -9 -n --keep *.js
 gzip -f -9 -n --keep *.png
 gzip -f -9 -n --keep *.svg
-mv _logo.svg.gz logo.svg.gz
+#mv _logo.svg.gz logo.svg.gz
 git add *.gz
 
 
